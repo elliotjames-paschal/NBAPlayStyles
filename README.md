@@ -11,11 +11,6 @@ Using big data techniques, we analyze detailed game, box score, and play-by-play
 
 Our analysis combines exploratory data analysis, text feature extraction, clustering, marginal regressions, and predictive modeling (PCA and LASSO logistic regression) to identify the play styles and metrics that most influence postseason success.
 
-## Repository Structure
-
-- `annotated-Final Paper - Group 1.pdf` – Full research paper detailing methods, analysis, and results.
-- (If you also have code files or Jupyter notebooks, list them here.)
-
 ## Main Findings
 
 - **Three-point shooting** has become a dominant offensive strategy in the NBA over the past two decades.

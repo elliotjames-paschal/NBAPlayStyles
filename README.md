@@ -27,10 +27,7 @@ Our analysis combines exploratory data analysis, text feature extraction, cluste
 
 ## Individual Contributions
 
-## Individual Contributions
-
 `Big Data 2 (1).R` – Code contributed by Elliot Paschal.  
-This script analyzes NBA team-season data to predict playoff qualification.  
-It performs Principal Component Analysis (PCA) for dimensionality reduction and builds a logistic regression model based on the principal components.  
-It also implements a raw LASSO logistic regression model on the original features to improve interpretability.  
-Model training includes cross-validation for optimal component and penalty selection, and model performance is evaluated using out-of-sample accuracy, R², confusion matrices, and feature importance analysis.
+This script corresponds to Section 2.2 of the paper, "Refined Clustering Based on Player Statistics."  
+It processes NBA box score data from 1996 to 2019, normalizes team statistics season-by-season, and performs hierarchical clustering (Ward’s method) to identify distinct team play styles within each season.  
+The script assigns play style labels to clusters based on statistical profiles, allowing for analysis of how NBA play styles evolved over time.

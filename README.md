@@ -27,6 +27,10 @@ Our analysis combines exploratory data analysis, text feature extraction, cluste
 
 ## Individual Contributions
 
+## Individual Contributions
+
 `Big Data 2 (1).R` – Code contributed by Elliot Paschal.  
-This script conducts marginal regressions with False Discovery Rate (FDR) correction to identify statistically significant play style features, and implements a LASSO logistic regression model to predict NBA playoff qualification based on team-season performance metrics.  
-It includes model training, cross-validation for lambda selection, and evaluation of model performance using out-of-sample accuracy and feature importance analysis.
+This script analyzes NBA team-season data to predict playoff qualification.  
+It performs Principal Component Analysis (PCA) for dimensionality reduction and builds a logistic regression model based on the principal components.  
+It also implements a raw LASSO logistic regression model on the original features to improve interpretability.  
+Model training includes cross-validation for optimal component and penalty selection, and model performance is evaluated using out-of-sample accuracy, R², confusion matrices, and feature importance analysis.

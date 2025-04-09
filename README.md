@@ -24,3 +24,9 @@ Our analysis combines exploratory data analysis, text feature extraction, cluste
 - [NBA Play-by-Play, Box Scores, and Games Dataset (Kaggle)](https://www.kaggle.com/datasets/patrickhallila1994/nba-data-from-basketball-reference)
 - [Apache Arrow Documentation](https://arrow.apache.org/docs/r/)
 - [BigMemory Package Documentation](http://www.stat.yale.edu/~mjk56/Research/Prospectus/bigmemoRy-vignette.pdf)
+
+## Individual Contributions
+
+`Big Data 2.R` – Code contributed by Elliot Paschal.  
+This script conducts marginal regressions with False Discovery Rate (FDR) correction to identify statistically significant play style features, and implements a LASSO logistic regression model to predict NBA playoff qualification based on team-season performance metrics.  
+It includes model training, cross-validation for lambda selection, and evaluation of model performance using out-of-sample accuracy and feature importance analysis.
